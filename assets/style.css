@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin-top: 0.3em;
+    /* Отступ сверху */
+}
+
+
+/*background*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/fon.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-width: 1900px;
+    margin: 0 auto;
+}
+
+
+/*<header>*/
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 auto;
+    padding-left: 60px;
+}
+
+.tag {
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 400px;
+    padding-bottom: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #387339;
+}
+
+.kurs {
+    /*курс ресурсов*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-right: 5px;
+    padding-left: 25px;
+}
+
+.kurs_metal {
+    padding: 15px;
+}
+
+.kurs_medb {
+    padding: 15px;
+}
+
+.kurs_plastik {
+    padding: 15px;
+}
+
+.kurs_provoda {
+    padding: 15px;
+}
+
+.data {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.ssilka {
+    font-size: 32px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.ssilka:hover {
+    color: #fce38a;
+}
+
+
+/*середина под крафты*/
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1700px;
+    text-align: center;
+    margin: 235px auto 0;
+    font-size: 35px;
+    color: red;
+}
+
+.text_det {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: #ffb300;
+    font-weight: 700;
+}
+
+.biruza {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    border: 10px solid #000;
+    background: rgba(18, 184, 178, 0.7);
+    line-height: 0.5em;
+}
+
+.profit {
+    padding-top: 60px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    color: #2db518;
+    font-size: 80px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+}
+
+.sell {
+    padding-top: 50px;
+    padding-left: 100px;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 60px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+}
+
+.needed {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 20px;
+    color: #fce38a;
+}
+
+.valcraft {
+    padding-top: 90px;
+    font-size: 20px;
+    color: #fce38a;
+    text-decoration: underline;
+}
+
+.needed2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-right: 5px;
+    padding-left: 0;
+    font-size: 20px;
+    color: #fce38a;
+}
+
+.obshak2 {
+    position: absolute;
+    top: 600px;
+    left: 900px;
+}
+
+.prz {
+    font-size: 20px;
+    color: #fce38a;
+    text-decoration: underline;
+}
+
+.needed3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-right: 5px;
+    padding-left: 0;
+    font-size: 20px;
+    color: #fce38a;
+}
+
+.stoimost {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color:red ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+.metal {
+    padding-right: 15px;
+}
+
+.provoda {
+    padding-right: 15px;
+}
+
+.plastik {
+    padding-right: 15px;
+}
+
+.medb {
+    padding-right: 15px;
+}
+
+.sinii {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 10px solid #000;
+    border-top: 0;
+    background: rgba(15, 53, 191, 0.7);
+    line-height: 0.5em;
+}
+
+.first__item {}
+
+.second__item {}
+
+
+/*cost*/
+
+.cost {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.cost__metal {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    padding: 15px 25px;
+    border: 10px solid #000;
+    border-right: 0;
+    border-top: 0;
+    background: rgba(75, 77, 76, 0.7);
+    line-height: 0.5em;
+}
+
+.cost__medb {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    padding: 15px 25px;
+    border: 10px solid #000;
+    border-left: 0;
+    border-top: 0;
+    background: rgba(75, 77, 76, 0.7);
+    line-height: 0.5em;
+}
+
+.obshak {
+    position: absolute;
+    top: 780px;
+}
+
+
+/*nav*/
+
+.nav {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.nav_link {
+    font-size: 14px;
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    background-color: #fce38a;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+
+.nav_link:hover {
+    color: #fce38a;
+}
+
+.nav_link:hover:after {
+    opacity: 1;
+}
